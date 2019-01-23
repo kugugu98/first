@@ -1,0 +1,19 @@
+*{
+    text-align: center;
+}
+h1{
+    color : burlywood;
+}
+h2{
+    color : orange;
+}
+
+a{
+    text-decoration: none;
+    color : violet;
+}
+
+a:hover{
+    text-decoration: none;
+    color: skyblue;
+}

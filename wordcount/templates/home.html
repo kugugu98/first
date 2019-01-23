@@ -1,0 +1,18 @@
+{% load static %}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'polls/style.css' %}">
+    </head>
+    <body>
+        <h1>Word Count</h1>
+        <p>여기서 글의 문자를 파악할 수 있습니다.</p>
+        <a href="{%url 'about'%}">About</a>
+
+
+        <form action="{%url 'result'%}">
+            <textarea cols="40" rows="10" name="fulltext"></textarea>
+            <br>
+            <input type="submit" value="count">
+        </form>
+    </body>
+</html>
